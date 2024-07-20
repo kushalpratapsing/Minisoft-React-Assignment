@@ -1,0 +1,56 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 50px; 
+    left: 0;
+    width: 200px;
+    background-color: #181827;
+    color: #fff;
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+  }
+  
+  .sidebar .search-box {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .search-box input {
+    width: 100%;
+    padding: px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a252f;
+    color: #fff;
+  }
+  
+  .sidebar .nav {
+    padding: 0; 
+    margin: 2px;
+  }
+  
+  .sidebar .nav-link {
+    color: #fff;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 100%; 
+  }
+  
+  .sidebar .nav-link .nav-icon {
+    margin-right: 5px;
+    flex-shrink: 2px;
+  }
+  
+  .sidebar .nav-link span {
+    flex-grow: 3; 
+  }
+  
+  .sidebar .nav-link.active,
+  .sidebar .nav-link:hover {
+    background-color: #1a252f;
+  }
+  
